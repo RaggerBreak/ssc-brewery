@@ -44,13 +44,13 @@
     </licenses>
 
     <organization>
-        <name>Spring Framework Guru</name>
+        <name>FreeL</name>
     </organization>
 
     <developers>
         <developer>
-            <name>John Thompson</name>
-            <organization>Spring Framework Guru</organization>
+            <name>Ragger Break</name>
+            <organization>FreeL</organization>
         </developer>
     </developers>
 
@@ -88,6 +88,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
