@@ -50,7 +50,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         auth.inMemoryAuthentication()
                 .withUser("scott")
-                .password("{ldap}{SSHA}svhmBg8h7pVtl3N1czq3g7oFksJfwvIABOXGwA==")
+                .password("{bcrypt15}$2a$15$aVnVCdUF0vPooGF0XifE9eyo4jLLpZL7fmxBorzgzJOkPFTJ2rETG")
                 .roles("CUSTOMER");
 
     }
