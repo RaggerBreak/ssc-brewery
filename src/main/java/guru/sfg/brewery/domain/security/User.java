@@ -28,15 +28,15 @@ public class User {
     private Set<Authority> authorities;
 
     @Builder.Default
-    private boolean accountNonExpired = true;
+    private Boolean accountNonExpired = true;
 
     @Builder.Default
-    private boolean accountNonLocked = true;
+    private Boolean accountNonLocked = true;
 
     @Builder.Default
-    private boolean credentialsNonExpired = true;
+    private Boolean credentialsNonExpired = true;
 
     @Builder.Default
-    private boolean enabled = true;
+    private Boolean enabled = true;
 
 }
