@@ -7,7 +7,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import java.security.PublicKey;
 import java.util.UUID;
 
 @RequestMapping("/api/v1/customers/{customerId}")
